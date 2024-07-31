@@ -4,12 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Website Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-
-        </nav>
+    <header class="bg-header">
+        <!-- navbar -->
+         <nav class="nav-bar">
+            <div class="logo">
+                <h4><i>Fitness</i></h4>
+            </div>
+            <ul class="nav-items">
+                <li class="nav-item"><a href=""><button class="home-btn">Home</button></a></li>
+                <li class="nav-item"><a class="nav-link" href="">Service</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="">About</a></li>
+            </ul>
+         </nav>
+         <!-- Banner -->
+         <div class="banner">
+            <div class="brand-moto">
+                <h3 class="banner-title">Get body in <span class="shape dancing-script">shape</span> & stay healthy</h3>
+                <p class="banner-description">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                <div class="buttons">
+                    <button class="join-btn">Join Club Now!</button>
+                    <button class="download-btn">Download App</button>
+                </div>
+                
+            </div>
+            <div class="image-container">
+                <div class="img-flex">
+                    <img class="img" src="./images/Images 2.png" alt="">
+                    <button class="image-cart2">
+                    <p class="image-cart2-text">550+</p>
+                    <p class="cart2-text">Free Workout Videos</p>
+                </button>
+                </div>
+                <button class="image-cart1">
+                    <div class="circle"></div>
+                    <div class="cart-content">
+                        <p class="image-cart-text">350+</p>
+                        <p class="video-cart">Video tutorial</p>
+                    </div>
+                </button>
+            </div>
+         </div>
     </header>
     <main>
 
